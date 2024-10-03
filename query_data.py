@@ -2,6 +2,7 @@
 import argparse
 import time
 import os
+from dotenv import load_dotenv
 from langchain_community.vectorstores.chroma import Chroma
 from langchain.prompts import ChatPromptTemplate
 from langchain_community.llms.ollama import Ollama
@@ -10,9 +11,7 @@ from langchain.schema.runnable import RunnableLambda, RunnablePassthrough
 
 from parse_embedding import get_embedding_function
 
-os.environ['LANGCHAIN_TRACING_V2'] = 'true'
-os.environ['LANGCHAIN_ENDPOINT'] = 'https://api.smith.langchain.com' 
-os.environ['LANGCHAIN_API_KEY'] = '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'
+load_dotenv()
 
 CHROMA_PATH = "db/chroma"
 
