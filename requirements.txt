@@ -1,0 +1,16 @@
+python-dotenv
+pyPDF
+pyPDF2
+Pymupdf
+llama_parse
+llama_index
+unstructured[all-docs]
+unstructured-client
+watermark
+detectron2@git+https://github.com/facebookresearch/detectron2.git@e2ce8dc#egg=detectron2
+tesseract-ocr
+libtesseract-dev
+langchain
+langchain_core
+langchain_community
+streamlit
