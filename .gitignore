@@ -4,6 +4,6 @@ __pycache__
 db
 
 .env
-.DS_Stores
+.DS_Store
 
 *.ipynb
